@@ -108,6 +108,9 @@ Notes
 - Increase to something larger, e.g.:  
   ```json
   "terminal.integrated.scrollback": 5000
+  ```
 
+  ```shell
   chmod +x vscode_setup.sh
   ./vscode_setup.sh
+  ```
