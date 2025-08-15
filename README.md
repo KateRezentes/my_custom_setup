@@ -89,3 +89,25 @@ You can now use gco in the terminal as a shortcut for git checkout.
 Notes
 - Ensure you have proper permissions to edit your shell configuration file.
 - Reloading the shell configuration (source ~/.zshrc or source ~/.bashrc) is necessary for changes to take effect.
+
+
+
+
+---
+# VSCode Setup
+## Default Open Files in VS Code
+- Open Command Palette:  
+  **Cmd+Shift+P** (Mac) or **Ctrl+Shift+P** (Windows/Linux)  
+- Search: `Shell Command: Install 'code' command in PATH`
+- You can also add an alias in `~/.zshrc` if you prefer to use `open` instead of `code`.
+
+## Increase VS Code Integrated Terminal Scrollback
+- Open Settings: **Cmd+,** (Mac) or **Ctrl+,** (Windows/Linux)  
+- Search for: `terminal.integrated.scrollback`
+- Default: **1000 lines**
+- Increase to something larger, e.g.:  
+  ```json
+  "terminal.integrated.scrollback": 5000
+
+  chmod +x vscode_setup.sh
+  ./vscode_setup.sh
