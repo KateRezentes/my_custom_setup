@@ -110,6 +110,7 @@ Notes
   "terminal.integrated.scrollback": 5000
   ```
 
+## Run VSCode Script
   ```shell
   chmod +x vscode_setup.sh
   ./vscode_setup.sh
